@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root{
+    
+
+
+--Blue: hsl(246, 80%, 60%);
+--Light-red: hsl(15, 100%, 70%);
+--Soft_blue: hsl(195, 74%, 62%);
+--Light_red: hsl(348, 100%, 68%);
+--Lime_green: hsl(145, 58%, 55%);
+--Violet: hsl(264, 64%, 52%);
+--Soft_orange: hsl(43, 84%, 65%);
+--white: hsla(318, 95%, 25%, 0.38);
+
+
+--Very_dark_blue: hsl(226, 43%, 10%);
+--Dark_blue: hsl(235, 46%, 20%);
+--Desaturated_blue: hsl(235, 45%, 61%);
+--Pale_Blue: hsl(236, 100%, 87%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Rubik", sans-serif;
+    background-color: var(--Very_dark_blue);
+    color: var(--Pale_Blue);
+}
+.main-container{
+    margin-top: 20px;
+    width: 328px;
+    margin: 160x auto;
+    position: relative;
+}
+.firs-section{
+    
+}
+.main-card{
+   
+}
+.main-card__user{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--Blue);
+    display: flex;
+    padding: 30px;
+    border-radius:  16px; ;
+}
+.main-card__image{
+    width: 75px ;
+    height: 75px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border: 3px solid var(--white);
+    border-radius: 50%;
+}
+.main-card__titule{
+    font-size: 0.9em;
+    margin: 10px 0 4px;
+}
+.main-card__name{
+    font-size: 1.5em;
+    font-weight: 300px;
+    color: var(--white);
+}
+.main-card__dates{
+    background-color: var(--Dark_blue);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 1.2em;
+    position: absolute;
+    width: 100%;
+    top: 145px;
+    
+
+}
+.secound-section{
+    padding-top:  250px;
+    border: 1px solid white;
+}
+.main-card__frequency:hover{
+    cursor: pointer;
+
+}
+.card{
+    border: 1px solid rgba(136, 255, 0, 0.498);
+}
+.card__background{
+    background-color: var(--Light-red);
+    height: 80px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+}
+.card__image{
+    margin-top: -15px;
+    margin-left: 250px;
+}
